@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  weather-web:
+    build: .
+    container_name: weather-app
+    ports:
+      - "3000:80"
+    
