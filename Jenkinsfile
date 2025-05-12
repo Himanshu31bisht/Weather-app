@@ -24,7 +24,8 @@ pipeline {
                 sh "docker push ${env.dockerHubUser}/weather:latest"
                 
                 }
-        }
+         }
+         }
          stage('Test'){
          steps{
             echo "Testing the new Build.."
