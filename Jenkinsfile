@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Himanshu31bisht/Weather-app.git'
+                git 'https://github.com/Himanshu31bisht/Weather-app.git', branch:'main'
             }
         }
 
