@@ -1,61 +1,115 @@
-# Weather App 🌦️
+# 🌦️ Weather App
 
-This is a simple weather application that provides current weather information for a given location.
+A simple weather application that provides real-time weather information for any city in the world.
+
+---
 
 ## 📝 Description
 
-The Weather App fetches data from a weather API and displays current weather information such as temperature, humidity, wind speed, and weather conditions for a specified location. It offers a user-friendly interface and allows users to quickly check the weather for any city worldwide.
+The Weather App fetches current weather data using the OpenWeatherMap API. It displays useful weather details such as:
+
+- Temperature
+- Humidity
+- Wind speed
+- Weather conditions
+
+The app is designed with a clean and responsive interface, making it easy to use across all devices.
+
+---
 
 ## 🚀 Features
 
-- Provides current weather information for a specified location
-- Displays temperature in Celsius or Fahrenheit
-- Shows humidity, wind speed, and weather conditions
-- Supports searching for weather information by city name
-- Responsive design for seamless usage across devices
+✅ Get real-time weather updates for any city   
+✅ Displays humidity, wind speed, and weather conditions  
+✅ Responsive and mobile-friendly design  
+✅ Easy-to-use city search functionality  
+
+---
 
 ## ⚙️ Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/Himanshu31bisht/Weather-app.git
-    ```
+   ```bash
+   git clone https://github.com/Himanshu31bisht/Weather-app.git
+Navigate to the project directory:
 
-2. Navigate to the project directory:
+bash
+Copy
+Edit
+cd Weather-app
+Open index.html in your browser.
 
-    ```bash
-    cd Weather-app
-    ```
+🎯 Usage
+Open the Weather App in a browser.
 
-3. Open `index.html` in a web browser.
+Enter a city name in the search bar.
 
-## 🎯 Usage
+Click "Search" or press Enter.
 
-1. Open the Weather App in a web browser.
-2. Enter the name of the city you want to check the weather for in the search bar.
-3. Press the "Search" button or hit Enter.
-4. The current weather information for the specified city will be displayed.
-   
+View real-time weather information for the selected city.
 
-## 🌍 Demo
+🌍 Live Demo
+👉 Live Weather App Demo
 
-You can see a live demo of the Weather App [here]👉(https://himanshubishtweatherapp.netlify.app/).
-![Screenshot 2024-03-15 124418](https://github.com/Himanshu31bisht/Weather-app/assets/124806597/bdb46be0-505b-44b0-b8cc-462b07273ede)
+🔧 CI/CD with Jenkins
+This project is integrated with Jenkins for automated deployment using a CI/CD pipeline.
 
-## 🤝 Contributing
+🛠 Jenkins Setup
+Source Control: GitHub
 
-Contributions are welcome! If you'd like to contribute to this project, please open an issue to discuss the changes you'd like to make or fork the repository and submit a pull request.
+Trigger: Webhook for push events
 
+Pipeline: Declarative Jenkinsfile
 
+Build Steps:
 
-## 📧 Contact
+Clone the repository
 
-For any questions or feedback, please feel free to 👉https://www.linkedin.com/in/himanshubisht/
+Validate HTML/CSS/JS (optional linters)
 
+Run build/deploy script
 
+✅ CI/CD Workflow with Jenkins
+Code is pushed to the GitHub repository.
 
+Jenkins detects the change via webhook.
 
+Jenkins pipeline (Jenkinsfile) is executed:
 
+Code is pulled from GitHub.
 
+Any validation or tests are run.
+
+App is built and deployed automatically (e.g., to Netlify, FTP, or Docker container).
+
+Notifications (optional) are sent upon success or failure.
+
+Jenkins ensures the Weather App is always up-to-date and deployed automatically without manual intervention.
+
+🤝 Contributing
+Contributions are welcome!
+To contribute:
+
+Fork the repository
+
+Create a new branch (git checkout -b feature-branch)
+
+Commit your changes
+
+Push the branch and open a pull request
+
+📧 Contact
+For feedback or questions, feel free to connect on LinkedIn.
+
+📦 Tech Stack
+JavaScript – 43.7%
+
+CSS – 30.2%
+
+HTML – 24.9%
+
+Dockerfile – 1.2%
+
+CI/CD – Jenkins (automated deployment)
 
