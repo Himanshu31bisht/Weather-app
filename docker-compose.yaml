@@ -6,4 +6,7 @@ services:
     container_name: weather-app
     ports:
       - "3000:80"
-    
+
+    environment:
+      - OPENWEATHERMAP_API_KEY=d4f7f81129bb4e05e278163ba60b69d4
+        
