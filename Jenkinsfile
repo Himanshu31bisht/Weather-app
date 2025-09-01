@@ -2,12 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
-            steps {
-                git branch: 'main', 
-                    url: 'https://github.com/Himanshu31bisht/Weather-app.git'
+       stage('Checkout') {              
+           steps {
+               checkout scm
             }
-         }
+           }
+
         
         stage('Build Docker Image') {
             steps{
