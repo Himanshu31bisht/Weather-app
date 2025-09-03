@@ -2,13 +2,6 @@ pipeline {
     agent any
 
     stages {
-       stage('Code'){
-        steps{
-            echo "Clonning code.."
-             git url: 'https://github.com/Himanshu31bisht/Weather-app.git', branch: 'main'
-        }
-    }
-
         
         stage('Build Docker Image') {
             steps{
