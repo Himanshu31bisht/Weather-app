@@ -2,11 +2,12 @@ pipeline {
     agent any
 
     stages {
-       stage('Checkout') {              
-           steps {
-               checkout scm
-            }
-           }
+       stage('Code'){
+        steps{
+            echo "Clonning code.."
+             git url: 'https://github.com/Himanshu31bisht/Weather-app.git', branch: 'main'
+        }
+    }
 
         
         stage('Build Docker Image') {
